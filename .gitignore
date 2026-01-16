@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+myvenv/
+.venv/
+venv/
+
+# Node / Vite / React
+node_modules/
+dist/
+.cache/
+
+# Env files
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+
