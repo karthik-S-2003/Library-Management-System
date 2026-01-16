@@ -71,9 +71,16 @@ Library Management System is a full-stack web application designed for interacti
  │    ├── Dashboard.jsx   
  │    ├── User.jsx       
  │    ├── Creator.jsx    
- │    └── Admin.jsx        
+ │    ├── Admin.jsx 
+ |    ├── NotFound.jsx 
+ |    ├── Register.jsx
+ |    └── Readbook.jsx        
  ├── api.js                
- ├── auth.js              
+ ├── auth.js  
+ ├── main.jsx
+ ├── index.css
+ ├── App.css
+ ├── style.css
  └── App.jsx               
 
 ```
@@ -81,15 +88,16 @@ Library Management System is a full-stack web application designed for interacti
 ### Backend (`/server`)
 ```
 /routers
- ├── auth.py         
- ├── user.py        
- ├── creator.py      
- ├── admin.py       
- └── comments.py    
+    ├── auth.py         
+    ├── user.py        
+    ├── creator.py      
+    ├── admin.py       
+    └── comments.py    
 ├── main.py         
 ├── models.py       
 ├── tables.py        
-├── crud.py          
+├── crud.py     
+├── dependencies.py     
 └── database.py      
 
 ```
