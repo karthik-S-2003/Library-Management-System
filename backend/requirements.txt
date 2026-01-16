@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+multipart
+pydantic[email]
+# fastapi sqlalchemy uvicorn email-validator passlib python-jose argon2-cffi
+pytest
+ 
